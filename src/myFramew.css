@@ -1,0 +1,39 @@
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-020 {
+    padding: 0 20px;
+    width: 100px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-1030 {
+    padding: 10px 30px;
+}
+.m-20 {
+    margin: 20px;
+}
+.m-30 {
+    margin: 30px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+
+.font-r {
+    font-family: "Roboto-Medium", sans-serif;
+    font-weight: 700;
+}

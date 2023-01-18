@@ -51,6 +51,7 @@ p,
 span,
 ul {
   font-family: inherit;
+  color: black !important;
 }
 
 li,

@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./normailze.css">
-    <link rel="stylesheet" href="./style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normailze.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./myFramew.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    
-</body>
+  <body>
+    <!-- Navbar -->
+    <!--  <nav class="nav__container d-flex navbar" role="navigation" aria-label="main navigation"> -->
+    <nav class="navbar nav__container" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand logo p-1030">
+        <a class="logo__container" href="#">
+          <!-- <img class="logo__image" src="../images/origi-logo.png" alt="" /> -->
+          <img class="logo__image" src="../images/origi-logo.png" alt="" />
+        </a>
+      </div>
+
+      <div class="nav-menu__ls p-1030" id="nav-menu__ls">
+        <!-- <ul class="nav-menu__ls-ul  d-flex"> -->
+        <ul id="navbarBasicExample" class="navbar-menu nav-menu__ls-ul">
+          <li class="navbar-item">
+            <a class="subtitle is-5" href="#">Startseite</a>
+          </li>
+          <li class="navbar-item">
+            <a class="subtitle is-5" href="#">Über uns</a>
+          </li>
+          <li class="navbar-item">
+            <a class="subtitle is-5" href="#">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--  Sections Container -->
+    <main>
+      <!--  Landing Page Section -->
+      <section class="landing-page">
+        <!-- First Section -->
+        <div class="landing-page__hero">
+          <picture class="landing-page__image-container">
+            <source media="(min-width: 800px)" srcset="../images/image.png" />
+            <img
+              class="landing-page__image"
+              src="../images/landingpage-mob.jpg"
+              alt="pic"
+            />
+          </picture>
+          <div class="landing-page__info">
+            <!-- <h1 class="landing-page__title m-20 font-r"> -->
+            <h1 class="title is-3">PROFESSIONELLE ÜBERSETZUNG SERVICES</h1>
+            <!-- <h3 class="landing-page__subtitle  m-20"> -->
+            <h3 class="subtitle is-4">ERFAHREN SIE DEN UNTERSCHIED</h3>
+            <button class="m-20">
+              <a class="landing-page__CTA-btn button" href="/">Kontakt uns</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--  Services Section -->
+
+      <!--  About us Page Section -->
+
+      <!--  Contact us Page Section -->
+    </main>
+  </body>
 </html>
