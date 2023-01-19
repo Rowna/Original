@@ -17,7 +17,11 @@
   <body>
     <!-- Navbar -->
     <!--  <nav class="nav__container d-flex navbar" role="navigation" aria-label="main navigation"> -->
-    <nav class="navbar nav__container" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar nav__container"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand logo p-1030">
         <a class="logo__container" href="#">
           <!-- <img class="logo__image" src="../images/origi-logo.png" alt="" /> -->
@@ -32,6 +36,9 @@
             <a class="subtitle is-5" href="#">Startseite</a>
           </li>
           <li class="navbar-item">
+            <a class="subtitle is-5" href="#">Services</a>
+          </li>
+          <li class="navbar-item">
             <a class="subtitle is-5" href="#">Über uns</a>
           </li>
           <li class="navbar-item">
@@ -44,11 +51,14 @@
     <!--  Sections Container -->
     <main>
       <!--  Landing Page Section -->
-      <section class="landing-page">
+      <section class="hero landing-page">
         <!-- First Section -->
         <div class="landing-page__hero">
           <picture class="landing-page__image-container">
-            <source media="(min-width: 800px)" srcset="../images/image.png" />
+            <source
+              media="(min-width: 800px)"
+              srcset="../images/hero-desktop.png"
+            />
             <img
               class="landing-page__image"
               src="../images/landingpage-mob.jpg"
@@ -60,15 +70,88 @@
             <h1 class="title is-3">PROFESSIONELLE ÜBERSETZUNG SERVICES</h1>
             <!-- <h3 class="landing-page__subtitle  m-20"> -->
             <h3 class="subtitle is-4">ERFAHREN SIE DEN UNTERSCHIED</h3>
-            <button class="m-20">
-              <a class="landing-page__CTA-btn button" href="/">Kontakt uns</a>
-            </button>
+            <div class="m-20">
+              <a class="landing-page__CTA-btn is-danger button" href="/"
+                >Kontakt Uns</a
+              >
+            </div>
           </div>
         </div>
       </section>
 
       <!--  Services Section -->
+      <section class="section is-medium services">
+        <div class="services-title__container m-20 d-flex-c">
+          <p class="subtitle is-5">Herzlichen Willkommen</p>
+          <p class="title is-3">Unsere Dienstleistungen</p>
+          <p class="subtitle is-6 services-subtitle">
+            Unsere angebotene Services mit experten Dolmetschern und
+            professionellen Übersetzungen macht Ihnen das Leben leichter.
+          </p>
+        </div>
 
+        <div class="services-info__container d-flex-c">
+          <!-- Spalte 1 -->
+          <div class="services-info__items item1 ">
+            <!-- Item links 1 -->
+            <div class="services-info__item">
+              <p class="title is-3">Dolmetschen</p>
+              <p class="subtitle is-6 services-info__p ">
+                Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed
+                risus ultricies tristique nulla. Ultrices tincidunt arcu non
+                sodales neque sodales ut.
+              </p>
+            </div>
+
+            <!-- Item links 2 -->
+            <div class="services-info__item">
+              <p class="title is-3">Übersetzen</p>
+              <p class="services-info__p subtitle is-6">
+                Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed
+                risus ultricies tristique nulla. Ultrices tincidunt arcu non
+                sodales neque sodales ut.
+              </p>
+            </div>
+          </div>
+
+          <!-- Spalte 2 Bild mittig -->
+          <div class="services-info__items item2 m-20">
+            <!--<source
+                media="(min-width: 800px)"
+                srcset="../images/service.jpg"
+              />
+               -->
+            <img
+              class="services-info__image"
+              src="../images/service.jpg"
+              alt="pic"
+            />
+          </div>
+
+          <!-- Spalte 3 -->
+          <div class="services-info__items item3">
+            <!-- Item links 1 -->
+            <div class="services-info__item">
+              <p class="title is-3">Mitgehen</p>
+              <p class="services-info__p subtitle is-6">
+                Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed
+                risus ultricies tristique nulla. Ultrices tincidunt arcu non
+                sodales neque sodales ut.
+              </p>
+            </div>
+
+            <!-- Item links 2 -->
+            <div class="services-info__item">
+              <p class="title is-3">Ausfüllen</p>
+              <p class="services-info__p subtitle is-6">
+                Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed
+                risus ultricies tristique nulla. Ultrices tincidunt arcu non
+                sodales neque sodales ut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--  About us Page Section -->
 
       <!--  Contact us Page Section -->
